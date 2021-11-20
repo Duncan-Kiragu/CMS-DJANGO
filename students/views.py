@@ -12,8 +12,6 @@ from django.views.generic.detail import DetailView
 
 
 
-
-
 class StudentCourseDetailView(DetailView):
     model = Course
     template_name = 'students/course/detail.html'
